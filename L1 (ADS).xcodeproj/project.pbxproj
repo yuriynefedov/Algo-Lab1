@@ -7,13 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BE12574D27039E2700BA385E /* Array+InsertionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12574C27039E2700BA385E /* Array+InsertionSort.swift */; };
+		BE12574F27039FCF00BA385E /* Array+MergeSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE12574E27039FCF00BA385E /* Array+MergeSort.swift */; };
+		BE1257512703A1E300BA385E /* Array+Shellsort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE1257502703A1E300BA385E /* Array+Shellsort.swift */; };
 		BE96E4772702EFEB00D6AC1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE96E4762702EFEB00D6AC1C /* AppDelegate.swift */; };
 		BE96E4792702EFEB00D6AC1C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE96E4782702EFEB00D6AC1C /* ViewController.swift */; };
 		BE96E47B2702EFEC00D6AC1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BE96E47A2702EFEC00D6AC1C /* Assets.xcassets */; };
 		BE96E47E2702EFEC00D6AC1C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BE96E47C2702EFEC00D6AC1C /* Main.storyboard */; };
+		BE96E4882702FBBD00D6AC1C /* Array+SelectionSort.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE96E4872702FBBD00D6AC1C /* Array+SelectionSort.swift */; };
+		BE96E48B27032AFA00D6AC1C /* NSTextField+TimeDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE96E48A27032AFA00D6AC1C /* NSTextField+TimeDisplay.swift */; };
+		BE96E48D27032BC400D6AC1C /* Double+RoundedToPlaces.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE96E48C27032BC400D6AC1C /* Double+RoundedToPlaces.swift */; };
+		BE96E48F27032F7E00D6AC1C /* Array+RandomizingFillers.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE96E48E27032F7E00D6AC1C /* Array+RandomizingFillers.swift */; };
+		BE96E49227032FBA00D6AC1C /* K.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE96E49127032FBA00D6AC1C /* K.swift */; };
+		BE96E4942703357B00D6AC1C /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE96E4932703357B00D6AC1C /* Observer.swift */; };
+		BE96E4962703360400D6AC1C /* SortingAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE96E4952703360400D6AC1C /* SortingAlgorithm.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BE12574C27039E2700BA385E /* Array+InsertionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+InsertionSort.swift"; sourceTree = "<group>"; };
+		BE12574E27039FCF00BA385E /* Array+MergeSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+MergeSort.swift"; sourceTree = "<group>"; };
+		BE1257502703A1E300BA385E /* Array+Shellsort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Shellsort.swift"; sourceTree = "<group>"; };
 		BE96E4732702EFEB00D6AC1C /* L1 (ADS).app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "L1 (ADS).app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BE96E4762702EFEB00D6AC1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BE96E4782702EFEB00D6AC1C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -21,6 +34,13 @@
 		BE96E47D2702EFEC00D6AC1C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BE96E47F2702EFEC00D6AC1C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BE96E4802702EFEC00D6AC1C /* L1__ADS_.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = L1__ADS_.entitlements; sourceTree = "<group>"; };
+		BE96E4872702FBBD00D6AC1C /* Array+SelectionSort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+SelectionSort.swift"; sourceTree = "<group>"; };
+		BE96E48A27032AFA00D6AC1C /* NSTextField+TimeDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "NSTextField+TimeDisplay.swift"; sourceTree = "<group>"; };
+		BE96E48C27032BC400D6AC1C /* Double+RoundedToPlaces.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+RoundedToPlaces.swift"; sourceTree = "<group>"; };
+		BE96E48E27032F7E00D6AC1C /* Array+RandomizingFillers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+RandomizingFillers.swift"; sourceTree = "<group>"; };
+		BE96E49127032FBA00D6AC1C /* K.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = K.swift; sourceTree = "<group>"; };
+		BE96E4932703357B00D6AC1C /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		BE96E4952703360400D6AC1C /* SortingAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SortingAlgorithm.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,14 +73,48 @@
 		BE96E4752702EFEB00D6AC1C /* L1 (ADS) */ = {
 			isa = PBXGroup;
 			children = (
+				BE96E49027032FB300D6AC1C /* Utility */,
+				BE96E48927032AC100D6AC1C /* Extensions */,
+				BE96E4862702FB9700D6AC1C /* Algorithms */,
 				BE96E4762702EFEB00D6AC1C /* AppDelegate.swift */,
 				BE96E4782702EFEB00D6AC1C /* ViewController.swift */,
 				BE96E47A2702EFEC00D6AC1C /* Assets.xcassets */,
 				BE96E47C2702EFEC00D6AC1C /* Main.storyboard */,
 				BE96E47F2702EFEC00D6AC1C /* Info.plist */,
 				BE96E4802702EFEC00D6AC1C /* L1__ADS_.entitlements */,
+				BE96E4932703357B00D6AC1C /* Observer.swift */,
 			);
 			path = "L1 (ADS)";
+			sourceTree = "<group>";
+		};
+		BE96E4862702FB9700D6AC1C /* Algorithms */ = {
+			isa = PBXGroup;
+			children = (
+				BE96E4872702FBBD00D6AC1C /* Array+SelectionSort.swift */,
+				BE12574C27039E2700BA385E /* Array+InsertionSort.swift */,
+				BE12574E27039FCF00BA385E /* Array+MergeSort.swift */,
+				BE1257502703A1E300BA385E /* Array+Shellsort.swift */,
+			);
+			path = Algorithms;
+			sourceTree = "<group>";
+		};
+		BE96E48927032AC100D6AC1C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				BE96E48A27032AFA00D6AC1C /* NSTextField+TimeDisplay.swift */,
+				BE96E48C27032BC400D6AC1C /* Double+RoundedToPlaces.swift */,
+				BE96E48E27032F7E00D6AC1C /* Array+RandomizingFillers.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		BE96E49027032FB300D6AC1C /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				BE96E49127032FBA00D6AC1C /* K.swift */,
+				BE96E4952703360400D6AC1C /* SortingAlgorithm.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,8 +186,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BE96E4882702FBBD00D6AC1C /* Array+SelectionSort.swift in Sources */,
+				BE96E4942703357B00D6AC1C /* Observer.swift in Sources */,
+				BE96E4962703360400D6AC1C /* SortingAlgorithm.swift in Sources */,
+				BE12574D27039E2700BA385E /* Array+InsertionSort.swift in Sources */,
+				BE96E49227032FBA00D6AC1C /* K.swift in Sources */,
 				BE96E4792702EFEB00D6AC1C /* ViewController.swift in Sources */,
+				BE1257512703A1E300BA385E /* Array+Shellsort.swift in Sources */,
+				BE96E48B27032AFA00D6AC1C /* NSTextField+TimeDisplay.swift in Sources */,
+				BE12574F27039FCF00BA385E /* Array+MergeSort.swift in Sources */,
 				BE96E4772702EFEB00D6AC1C /* AppDelegate.swift in Sources */,
+				BE96E48F27032F7E00D6AC1C /* Array+RandomizingFillers.swift in Sources */,
+				BE96E48D27032BC400D6AC1C /* Double+RoundedToPlaces.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
